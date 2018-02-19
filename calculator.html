@@ -9,6 +9,19 @@ function seno() {
 	var num3 = document.getElementById("n3");
 	num3.value = Math.sin(num3.value);
 }
+function forth() {
+	var num2 = document.getElementById("n2");
+	num2.value = Math.pow(num2.value, 4);
+}
+		</script>
+	</head>
+	<body>
+		<h1>Calculadora de Fernando Gonzalez Ballesteros</h1>
+		Number:
+		<input type="text" id="n1"><p>
+		<button onclick="cube()"> x^3 </button>
+	</body>
+</html>
 		</script>
 	</head>
 	<body>
@@ -18,5 +31,7 @@ function seno() {
 		<button onclick="cube()"> x^3 </button>
 		<input type="text" id="n3"><p>
 		<button onclick="seno()"> sin </button>
+		<input type="text" id="n2"><p>
+		<button onclick="forth()"> x^4 </button>
 	</body>
 </html>
